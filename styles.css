@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+
+#container {
+  width: 100%;
+  flex: 100vh;
+
+  display: flex;
+}
+
+
+aside {
+  width: 50%;
+  height: 100vh;
+  background-color: #fcfcfc;
+}
+
+main {
+  width: 50%;
+  height: 100vh;
+  
+  
+  background: rgb(25,5,38);
+  background: linear-gradient(73deg, rgba(25,5,38,1) 0%, rgba(56,10,85,1) 100%);  
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main > h1, h2{
+  font-family: 'Permanent Marker', cursive;
+  font-size: 44px;
+  color: #FFC727;
+
+  text-align: center;
+}
+
+main > h2{
+  margin-top: -50px;
+}
+
+
+button:focus, input:focus {
+  border: none;
+  outline: 0;
+}
+
+#button {
+  height: 62px;
+
+  border-radius: 5px;
+  border: none;
+
+  padding: 0 20px;
+  font-size: 18px;
+
+  background-color: #FFC727;
+  color:#190526;
+  font-weight: bold;
+
+  cursor: pointer;
+  transition: opacity .3s;
+
+  margin-left: 7px;
+}
+
+#button:hover {
+  opacity: 0.7;
+}
+
+#input {
+  text-align: center;
+  
+  height: 60px;
+  width: 100px;
+
+  border-radius: 5px;
+  border: none;
+
+  padding: 0 10px;
+  font-size: 18px;
+  font-weight: bold;
+
+  border: 1px solid #7E4A8C;
+
+  transition: all .2s;
+}
+
+
+aside > img {
+  height: 95%;
+}
+
+#timer-value{
+  font-family: 'Permanent Marker', cursive;
+  font-size: 100px;
+  color: #FFC727;
+}
+
+footer > p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+
+  color: #f4f4f4;
+}
